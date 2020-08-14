@@ -1,0 +1,1025 @@
+/* Globel CSS STARTS here */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "open sans";
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+label,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+a,
+a:hover {
+  display: inline-block;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("../fonts/OpenSans-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("../fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-ExtraBoldItalic.woff2") format("woff2"),
+    url("../fonts/OpenSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Light.woff2") format("woff2"),
+    url("../fonts/OpenSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Globel css ends here */
+/* header css starts here */
+header {
+  padding-top: 65px;
+}
+.header-top {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 15px 0px;
+}
+header .header-top p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 11px;
+  color: #7c7c7c;
+}
+header .top-no {
+  color: #525252;
+}
+header .top-mail {
+  color: #525252;
+}
+header .logo {
+  text-align: center;
+  padding: 35px 0 17px 0;
+  position: relative;
+}
+header .header-bottom {
+  border-top: 1px solid #cfcfcf;
+}
+.mob-menu {
+    display: none;
+}
+.mob-menu ul{
+    width: 100%;
+    background-color: #333333;
+    margin-top: 48px;
+    
+}
+.mob-menu i{
+    font-size: 40px;
+    color: rgba(73, 73, 73, 0.986);
+}
+.mob-menu button{
+    border: none;
+    background-color: #ffffff;
+    align-content: flex-end;
+    position: absolute;
+    right: 0;
+    top: 143px;
+}
+.mob-menu ul li{
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+.mob-menu ul li:hover{
+    background-color: #a55996;
+}
+.mob-menu ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 22px;
+}
+header .header-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  padding: 21px 0px;
+}
+header .list-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+header .list-item li {
+  margin-right: 46px;
+  text-transform: uppercase;
+}
+header .list-item li:last-child {
+  margin-right: 34px;
+}
+header .list-item li a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 8.34px;
+  color: #000000;
+}
+header .list-item li a:HOVER{
+    color: #a45694;
+}
+header .head-icon::after {
+  content: "";
+  position: absolute;
+  top: -21px;
+  right: -19px;
+  width: 1px;
+  height: 66px;
+
+  background-color: #cfcfcf;
+}
+header .head-icon::before {
+  content: "";
+  position: absolute;
+  top: -21px;
+  left: 0px;
+  width: 1px;
+  height: 66px;
+
+  background-color: #cfcfcf;
+}
+header .head-icon {
+  padding-left: 19px;
+  position: relative;
+}
+header .head-icon i {
+  padding-right: 12px;
+  color: #b2b2b2;
+  font-size: 20px;
+}
+header .head-icon i:hover{
+    color: #a55996;
+}
+
+/* header css ends here */
+/* Banner css starts here */
+.banner {
+  background-image: url(../images/bg-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 294px 0 452px 0px;
+}
+.banner .banner-content {
+  max-width: 9968px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner p {
+  font-size: 34px;
+  line-height: 48px;
+  font-weight: 400;
+  padding-bottom: 35px;
+  color: #ffffff;
+  margin: 0 auto;
+  width: 100%;
+}
+.banner a {
+  padding: 12px 38px;
+  color: #a45694;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-radius: 1px;
+  line-height: 20px;
+}
+.banner a:hover {
+background-color: #a45694;
+color: #ffffff;
+}
+/* Banner css ends here */
+/* content css strats here */
+/* section Fertility starts here */
+.fertility-content {
+  display: flex;
+  position: relative;
+  margin-top: -283px;
+}
+.section-fertility .fertility {
+  background-color: #30bb8c;
+  padding: 44px 0px;
+  text-align: center;
+  flex-basis: 50%;
+}
+.section-fertility h1 {
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #ffffff;
+  text-transform: capitalize;
+  padding-bottom: 16px;
+}
+.section-fertility p {
+  max-width: 375px;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.section-fertility .fertility ul {
+  padding-top: 235px;
+  max-width: 273px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.section-fertility ul li {
+  list-style: disc;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: left;
+}
+.section-fertility .renew {
+  background-color: #a45694;
+  padding: 46px 0px;
+  text-align: center;
+  flex-basis: 50%;
+}
+
+.section-fertility ul {
+  padding-top: 235px;
+  max-width: 135px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.section-fertility .fertility a {
+  background-color: #ffffff;
+  color: #30bb8c;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 11px 38px;
+  border-radius: 1px;
+  text-transform: uppercase;
+}
+.section-fertility .fertility a:hover{
+    background-color: #a45694;
+    color: #ffffff;
+}
+.section-fertility .renew a {
+  background-color: #ffffff;
+  color: #a45694;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 11px 38px;
+  border-radius: 1px;
+  text-transform: uppercase;
+}
+.section-fertility .renew a:hover{
+    background-color: #30bb8c;
+    color: #ffffff;
+}
+.section-fertility .dr-content {
+  display: flex;
+  height: 158px;
+  position: absolute;
+  top: 265px;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.section-fertility .dr-inner {
+  background-color: #525252;
+  padding: 58px 0px;
+  flex-basis: 75%;
+}
+.section-fertility .dr-img {
+  overflow: hidden;
+}
+.section-fertility .dr-img img {
+  width: 100%;
+  height: auto;
+}
+.section-fertility .dr-inner p {
+  max-width: 494px;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 29px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+/* section Fertility ends here */
+/* section bladder css starts here */
+.section-bladder {
+  background-image: url(../images/bg-content1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 1px solid #cfcfcf;
+}
+.section-bladder .bladder-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 58px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.section-bladder .bladder-img {
+  flex-basis: 52.2%;
+  height: auto;
+  height: fit-content;
+}
+.section-bladder .bladder-img img {
+  width: 100%;
+}
+.section-bladder .bladder-para {
+  flex-basis: 50%;
+  padding-left: 26px;
+  max-width: 495px;
+}
+.section-bladder .bladder-para h1 {
+  padding-top: 60px;
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.section-bladder .bladder-para p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #000000;
+  padding-bottom: 27px;
+  max-width: 480px;
+}
+.section-bladder .bladder-para a {
+  background-color: #30bb8c;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 11px 18px;
+  border-radius: 3px;
+  margin-top: 14px;
+}
+/* section bladder css ends here */
+/* section offer css starts here */
+.section-offers {
+  background-image: url(../images/bg-content2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 205px;
+  padding-bottom: 130px;
+  border-bottom: 5px solid #a65a97;
+  position: relative;
+}
+.section-offers p {
+    max-width: 540px;
+    padding-bottom: 46px;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+  padding-top: 88px;
+}
+.section-offers a {
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #a45694;
+  padding: 11px 37px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+.section-offers a:hover{
+    background-color: #a45694;
+    color: #ffffff;
+}
+.section-offers .you-know {
+  display: flex;
+  align-items: center;
+
+}
+.section-offers .you-know::before {
+    content: '';
+    position: absolute;
+    top: 205px;
+    left: 0;
+    width: 50%;
+    height: 74px;
+    background-color: #a45694;
+    z-index: 1;
+}
+.section-offers .you-know::after{
+    content: '';
+    position: absolute;
+    height: 74px;
+    top: 205px;
+    right: 0;
+    width: 15%;
+    background-color: #a45694;
+}
+
+.section-offers .you-know h1 {
+  font-size: 43px;
+  font-weight: 800;
+  line-height: 71px;
+  color: #ffffff;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.section-offers .you-know i {
+  font-size: 32px;
+  background-color: #ffffff;
+  color: #a65a97;
+  border-radius: 50%;
+  z-index: 1;
+}
+.section-offers .right-know {
+  padding: 37px 0px;
+  background-color: #a45694;
+  width: 15%;
+  position: absolute;
+  top: 241px;
+  right: 0;
+  transform: translateY(-50%);
+}
+/* section offer css ends here */
+/* <!-- section learn more starts here--> */
+.learn-more {
+  padding-top: 62px;
+  padding-bottom: 55px;
+}
+.learn-more .learn-more-content {
+  text-align: center;
+}
+.learn-more p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  padding-bottom: 43px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.learn-more a {
+    padding: 11px 38px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  background-color: #ffffff;
+  color: #616d6e;
+  text-transform: uppercase;
+  -moz-box-shadow: 1px 0 2px #000000;
+  -webkit-box-shadow: 0 1px 2px #000000;
+  box-shadow: 0 0 5px #000000;
+}
+/* <!-- section endss ends here--> */
+/* section contact-dr css starts here */
+.section-contact{
+background-color: #f3eff0;
+}
+.contact-content{
+    display: flex;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.contact-img{
+    flex-basis: 50%;
+
+}
+.contact-img img{
+    width: 100%;
+    height: fit-content;
+}
+.contact-right{
+    flex-basis: 50%;
+}
+.section-contact h1{
+    font-size: 27px;
+    line-height: 39px;
+    font-weight: 700;
+    color: #000000;
+padding-top: 70px;
+padding-bottom: 6px;
+}
+.section-contact h5{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    font-style: italic;
+    color: #30bb8c;
+    padding-bottom: 25px;
+}
+.section-contact p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    /* font-style: italic; */
+    color: #333333;
+    max-width: 550px;
+    padding-bottom: 30px;
+
+}
+.section-contact .learn-btn{
+color: #ffffff;
+background-color: #a45694;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+text-transform: uppercase;
+padding: 15px 41px;
+border-radius: 2px;
+}
+.section-contact .learn-btn:hover{
+    background-color:#ffffff ;
+    color: #a45694;
+}
+.section-contact .question-ans{
+padding: 64px 0 26px 0;
+}
+.section-contact .question{
+    font-size: 22px;
+    line-height: 32px;
+    color: #464646;
+    font-weight: 700;
+}.section-contact .answer{
+    font-size: 22px;
+    line-height: 32px;
+font-weight: 500;
+}
+.section-contact h3{
+    padding: 24px 20px;
+    border: 1px solid #cbc8c9;
+    margin-bottom: 20px;
+    width: 58%;
+font-size: 16px;
+line-height: 23px;
+font-weight: 400;
+color: #3b3b3b;
+
+}
+.section-contact h3 a{
+    color: #a55996;
+    font-size: 16px;
+    line-height: 23px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding-left: 5px;
+}
+.section-contact h3 a i{
+    padding-left: 7px;
+    color: #e4e4e4;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+/* section contact-dr css endss here */
+
+/* section blogs css endss here */
+.section-blogs{
+    border-top: 7px solid #30bb8c;
+    margin-top: -5px;
+    text-align: center;
+    padding-top: 62px;
+    padding-bottom: 82px;
+}
+.section-blogs .blogs-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-blogs h1{
+font-size: 42px;
+line-height: 71px;
+font-weight: 300;
+color: #333333;
+padding-bottom: 55px;
+}
+.section-blogs .blogs-left{
+    flex-basis: 47.5%;
+    text-align: left;
+}
+.section-blogs .blogs-right{
+    flex-basis: 47.5%;
+   text-align: left;
+}
+.blog-img{
+    width: 100%;
+    padding-bottom: 54px;
+}
+.blog-img img{
+    width: 100%;
+    height: fit-content;
+}
+.section-blogs .blogs-post{
+    font-size: 15px;
+    padding: 7px 13px;
+    line-height: 22px;
+    font-weight: 800;
+    text-transform: capitalize;
+    color: #ffffff;
+    background-color: #5abdc9;
+    border-radius: 3px;
+}
+.section-blogs .blogs-title{
+    font-size: 26px;
+    line-height: 36px;
+    color: #464646;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-left: 15px;
+
+}
+.section-blogs h5{
+    font-size: 14px;
+    line-height: 10px;
+    font-weight: 400;
+    color: #a9a9a9;
+    text-align: center;
+}
+.section-blogs p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #333333;
+    position: relative;
+    padding-top: 83px;
+    padding-bottom: 48px;
+}
+.section-blogs p::before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    background-color: #e5e5e5;
+    top: 48px;
+    left: 0;
+    width: 100%;
+}
+.section-blogs .blog-btn{
+    padding: 16px 42px;
+    background-color: #5abdc9;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+/* section blogs css endss here */
+/* footer-css starts here */
+footer {
+    text-align: center;
+}
+footer .footer-map{
+    background-image: url(../images/map.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 511px;
+}
+footer .footer-logo{
+    padding-top: 25px;
+    padding-bottom: 18px;
+
+}
+footer .footer-list{
+    display: flex;
+    padding-bottom: 17px;
+    flex-wrap: wrap;
+}
+footer .footer-list li{
+    text-transform: uppercase;
+    margin-right: 42px;
+    margin-bottom: 10px;
+
+}
+footer .footer-items{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-icon i{
+    color: #a9a9a9;
+    margin-left: 20px;
+}
+.footer-icon i:hover{
+    color: #a45694;
+}
+footer .footer-list li:last-child{
+    margin-right: 0px;
+}
+footer .footer-list li a{
+    font-size: 17px;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 600;
+}
+footer .footer-list li a:hover{
+    color: #a45694;
+}
+footer .footer-bottom{
+    background-color: #f8f8f8;
+    padding: 20px 0px;
+}
+footer .footer-bottom p{
+    font-size: 12px;
+    line-height: 18px;
+}
+/* footer css ends here */
+
+/*-------------Media Querries-----------------*/
+
+@media only screen and (max-width:1366px) {
+    .container{
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    header .list-item li {
+        margin-right: 30px;
+    }
+    .section-bladder .bladder-img {
+        flex-basis: 44.2%;}
+        .section-bladder{
+            padding-bottom: 50px;
+        }
+        .section-offers {
+            background-position: center
+        }
+        .contact-content {
+            display: block;
+        }
+        .section-contact p{
+            max-width: 90%;
+        }
+        .section-contact h3 {
+            width: 40%;
+        }
+        .section-blogs .blogs-title{
+            font-size: 23px;
+        }
+        footer .footer-list li a{
+            font-size: 14px;
+        }
+    }
+    /*------------- 1024px -----------------*/
+@media only screen and (max-width:1024px) {
+    header .list-item li a{
+        font-size: 14px;
+    }
+    .banner p{
+        font-size: 30px;
+    }
+    .section-bladder .bladder-content{
+        display: block;
+    }
+    .section-bladder .bladder-para{
+        max-width: 100%
+    }
+    .section-bladder .bladder-para p{
+        max-width: 90%;
+    }
+}
+/*------------- 991px -----------------*/
+@media only screen and (max-width:991px) {
+    header .header-bottom{
+        display: none;
+    }
+    .mob-menu{
+        display: block;
+    }
+    header .logo {
+        padding: 35px 0 57px 0;}
+        .contact-img img{
+            height: auto;
+        }
+        footer .footer-items{
+            display: block;
+        }
+        footer .footer-list li{
+            margin-right: 19px;
+        }
+}
+/*------------- 767px -----------------*/
+@media only screen and (max-width:767px) {
+    .banner{
+        padding-top: 200px;
+    }
+    .section-contact h3 {
+        width: 60%;
+    }
+    .section-blogs .blogs-content{
+        display: block;
+    }
+    .section-blogs .blogs-left{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    footer .footer-items{
+        display: block;
+    }
+    footer .footer-list{
+        display:block;
+        text-align: left;
+
+    }
+}
+/*------------- 640px -----------------*/
+@media only screen and (max-width:640px) {
+    .banner p {
+        font-size: 20px;
+}
+.fertility-content{
+    display: block;
+}
+.section-fertility .dr-content{
+    display: none;
+}
+.section-fertility .fertility ul{
+    padding-top: 30px;
+}
+.section-fertility ul{
+    padding-top: 30px;
+    max-width: 304px;
+}
+.section-bladder .bladder-para a{
+    font-size: 12px;
+}
+.section-offers .you-know h1{
+    font-size: 21px;
+}
+.learn-more p{
+    font-size: 18px;
+}
+.learn-more a{
+    font-size: 12px;
+}
+.section-contact h1{
+    font-size: 18px;
+}
+.contact-content{
+    padding: 0 20px;
+}
+.section-blogs .blogs-title {
+    font-size: 19px}
+    .section-contact h3 {
+        width: 83%;}
+    }
+
+
+
+/*------------- 480px -----------------*/
+@media only screen and (max-width:480px) {
+
+    header .header-top p {
+        font-size: 14px;
+        line-height: 20px;}
+    
+    header .logo{
+        padding-top: 14px;
+    }
+    .mob-menu button{
+        top: 88px;
+    }
+    .banner {
+        padding-top: 130px;
+    }
+    .banner p {
+        font-size: 20px;
+        line-height: 26px;}
+        .section-fertility h1{
+            font-size: 24px;
+        }
+        .section-fertility p{
+            font-size: 14px;
+        }
+        .section-fertility ul li {
+            list-style: none;
+            
+            padding-bottom: 15px;
+            font-size: 14px;
+            line-height: 35px;
+            
+            color: #ffffff;
+            text-align: left;
+            padding: 0 10px;}
+            footer .footer-logo img{
+                width: 90%;
+            }
+            header .logo  img{
+                width: 90%;
+            }
+            .section-fertility .fertility{
+                padding: 44px 10px;
+                text-align: left;
+            }
+            .section-fertility .renew{
+                padding: 46px 10px;
+                text-align: left;
+            }
+            .section-offers .you-know h1 {
+              font-size: 25px;
+            }
+            .section-offers .you-know i{
+                font-size: 19px;
+            }
+            .section-offers .you-know::before{
+              display: none;
+            }
+            .section-offers .you-know::after{
+              top: 84px;
+              width: 100%;
+            }
+            .section-offers{
+                padding-top: 88px;
+            }
+            .section-offers p{
+                font-size: 16px;
+            }
+            .blog-img{
+                padding-bottom: 28px;
+
+            }
+            .section-blogs .blogs-title{
+                display: block;
+                font-size: 17px;
+            }
+            .section-blogs .blogs-left{
+                text-align: center;
+            }
+            .section-blogs p{
+                text-align: left;
+            }
+            .section-blogs{
+                margin-top: -19px;
+            }
+            .section-blogs .blogs-right{
+                text-align: center;
+            }
+
+        }
