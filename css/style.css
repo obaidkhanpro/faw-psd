@@ -124,6 +124,7 @@ header .header-bottom {
     display: none;
 }
 .mob-menu ul{
+  display: none;
     width: 100%;
     background-color: #333333;
     margin-top: 48px;
@@ -140,6 +141,7 @@ header .header-bottom {
     position: absolute;
     right: 0;
     top: 143px;
+    outline: none;
 }
 .mob-menu ul li{
     text-transform: uppercase;
@@ -813,6 +815,7 @@ footer .footer-bottom p{
         }
         .contact-content {
             display: block;
+            padding: 0 20px;
         }
         .section-contact p{
             max-width: 90%;
@@ -856,13 +859,17 @@ footer .footer-bottom p{
     header .logo {
         padding: 35px 0 57px 0;}
         .contact-img img{
-            height: auto;
+            height: 500px;
         }
         footer .footer-items{
             display: block;
         }
         footer .footer-list li{
             margin-right: 19px;
+        }
+        footer .footer-map{
+          height: 340px;
+          object-fit: cover;
         }
 }
 /*------------- 767px -----------------*/
